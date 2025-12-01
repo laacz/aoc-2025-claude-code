@@ -23,7 +23,7 @@ cargo test
 
 - `src/dayXX.rs` - Solution file for each day (binary target)
 - `data/XX.txt` - Puzzle input files
-- `tasks/dayXX-Y.txt` - Task descriptions (part 1 or 2)
+- `tasks/dayXX-Y.md` - Task descriptions (part 1 or 2)
 
 Each day file follows this pattern:
 - `main()` - Reads input from `data/XX.txt`, calls both parts
