@@ -43,7 +43,7 @@ Each day file follows this pattern:
    path = "src/dayXX.rs"
    ```
 5. Write tests using example from task, run with `cargo test dayXX`
-6. Run solution with `cargo run --bin dayXX`
+6. Run solution with `timeout 30 cargo run --bin dayXX`
 
 ## Output Format
 
